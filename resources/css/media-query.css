@@ -138,3 +138,42 @@
       }
 }
 
+@media only screen and (max-width: 380px) {
+
+    .logo {
+        height: 100px;
+        float: left;
+      }
+
+    .main-nav li {
+        display: inline-block;
+        margin-right: 35px;
+        text-transform: uppercase;
+      }
+    
+      .header-text-box h1 {
+          font-size: 254%;
+      }
+
+      .header-text-box h2 {
+        font-size: 163%;
+    }
+
+    .services-section .row:last-child {
+        padding-left: 8%;
+        margin-bottom: 3%;
+    }
+
+    .partners-section .row:not(.row:first-child){
+        padding-left: 8%;
+    }
+
+    .testimonials-section .row:last-child {
+        padding-bottom: 6%;
+    }
+
+    .footer-nav li {
+        margin-right: 14px;
+    }
+
+}
